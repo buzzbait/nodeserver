@@ -16,7 +16,9 @@
     "helmet": "^3.21.2"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.6",
     "@types/express": "^4.17.2",
+    "@types/helmet": "0.0.45",
     "@types/node": "^13.5.3",
     "nodemon": "^2.0.2",
     "ts-node": "^8.6.2",
