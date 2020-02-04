@@ -1,0 +1,23 @@
+{
+    "dev" : {
+        "dbuser" : "root",
+        "dbpass" : "pass",
+        "database" : "dbname",
+        "host" : "127.0.0.1",
+        "dialect" : "mariadb"
+    },
+    "test" : {
+        "dbuser" : "root",
+        "dbpass" : "pass",
+        "database" : "dbname",
+        "host" : "127.0.0.1",
+        "dialect" : "mariadb"
+    },
+    "prod" : {
+        "dbuser" : "root",
+        "dbpass" : "pass",
+        "database" : "dbname",
+        "host" : "127.0.0.1",
+        "dialect" : "mariadb"
+    }
+}
