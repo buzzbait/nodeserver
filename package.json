@@ -16,7 +16,8 @@
     "express": "^4.17.1",
     "helmet": "^3.21.2",
     "mysql2": "^2.1.0",
-    "typeorm": "^0.2.22"
+    "typeorm": "^0.2.22",
+    "typescript-ioc": "^1.2.6"
   },
   "devDependencies": {
     "@types/cors": "^2.8.6",
