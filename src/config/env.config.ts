@@ -14,13 +14,13 @@ class EnvConfig{
         dotenv.config();
         this.envMode = process.env.NODE_ENV;
         console.log('실행환경 : ' + this.envMode);
+        this.initEnv();
     }
-    public initEnv(){
+    private initEnv(){
         //2. 환경구분에 따른 환경파일 로딩
         let envfileName : string;
         envfileName = '../../env/' + this.envMode + '.env';
-        dotenv.config({ path: resolve(__dirname, envfileName) });
-        
+        dotenv.config({ path: resolve(__dirname, envfileName) });        
     }
 
     /***********************************************************************************************
